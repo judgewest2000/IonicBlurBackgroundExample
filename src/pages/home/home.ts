@@ -11,4 +11,10 @@ export class HomePage {
 
   }
 
+  toggle = false;
+
+  toggleSwitch() {
+    this.toggle = !this.toggle;
+  }
+
 }
