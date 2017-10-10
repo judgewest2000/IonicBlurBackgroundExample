@@ -15,4 +15,5 @@
 .blureffect {
     filter: blur(5px);
     -webkit-filter: blur(5px);
+    transition: -webkit-filter 400ms
 }
